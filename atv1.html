@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1 = Number.parseFloat(window.prompt('1ª Nota (Exercicíos): '));
+        let n2 = Number.parseFloat(window.prompt('2ª Nota (Trabalho): '));
+        let n3 = Number.parseFloat(window.prompt('3ª Nota (Exame): '));
+
+
+        nota_1 = n1 *= 2;
+        nota_2 = n2 *= 3;
+        nota_3 = n3 *= 5;
+
+        media = (nota_1 + nota_2 + nota_3) / 10;
+
+        console.log(`A sua média é: ${media.toFixed(2)}`);
+        window.alert(`A sua média é: ${media.toFixed(2)}`)
+    </script>
+</body>
+</html>
